@@ -1,0 +1,176 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Hero section with background */
+.hero {
+  /*background-image: url('../Assets/Hero-bg.png'); this link was not working so i had to alternate*/
+  background-image: url("https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752161080/lsuilyuwk73dbfbsnpyy.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #4E47FF;
+}
+
+.signup-btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Hero content */
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 267.5px;
+  margin-right: 267.5px;
+  margin-top: 158px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1c1c1c;
+  margin-bottom: 37px;
+}
+
+.cta-btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  
+}
+/* See It in Action Section */
+.see-action {
+  background-color: #f9faff;
+  padding: 80px 40px;
+}
+
+.see-action-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.action-text {
+  flex: 1 1 400px;
+}
+
+.action-text h2 {
+  font-size: 2em;
+  color: #1c1c1c;
+  margin-bottom: 15px;
+}
+
+.action-text p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.launch-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4E47FF;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.action-image {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.action-image img {
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Stats Section */
+.stats-section {
+  background-color: #eef0ff;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.stats-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #e6e8ff;
+  border-radius: 20px;
+  padding: 50px 30px;
+}
+
+.stats-box h3 {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+  color: #1c1c1c;
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.stat {
+  flex: 1 1 30%;
+}
+
+.stat h4 {
+  font-size: 2.2em;
+  color: #4E47FF;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.stat p {
+  font-size: 1em;
+  color: #4a4a4a;
+  font-weight: 500;
+}
