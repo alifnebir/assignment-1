@@ -12,7 +12,6 @@ body {
 
 /* Hero section with background */
 .hero {
-  /*background-image: url('../Assets/Hero-bg.png'); this link was not working so i had to alternate*/
   background-image: url('../Assets/Hero-bg.png');
   background-size: cover;
   background-position: center;
