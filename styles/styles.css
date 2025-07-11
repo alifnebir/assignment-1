@@ -10,7 +10,7 @@ body {
   background-color: #F5F8FF;
 }
 
-/* Hero section with background */
+/* Hero section */
 .hero {
   background-image: url('../Assets/Hero-bg.png');
   background-size: cover;
@@ -428,5 +428,3 @@ body {
 .footer-nav a:hover {
   color: #4E47FF;
 }
-
-
